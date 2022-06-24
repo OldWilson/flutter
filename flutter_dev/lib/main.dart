@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+// import 'package:flutter_dev/page/table.dart';
+// import 'package:flutter_dev/page/DountAutoLabelChart.dart';
+// import 'package:flutter_dev/page/SelectionButton.dart';
+import 'package:flutter_dev/page/tab/TabbarView.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -14,7 +19,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // // home: SimpleBarChart.withSampleData(),
+      // // home: DountAutoLabelChart.withSampleData(),
+      home: TabbarView(),
     );
   }
 }
