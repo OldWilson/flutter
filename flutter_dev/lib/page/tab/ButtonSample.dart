@@ -75,7 +75,7 @@ class _ButtonSample extends State<ButtonSample> {
             ElevatedButton(
                 onPressed: _showAlert, child: const Text('normal')),
             const SizedBox(
-              width: 30,
+              width: 20,
             ),
             ElevatedButton(
               onPressed: () => print('normal color'),
@@ -88,19 +88,16 @@ class _ButtonSample extends State<ButtonSample> {
               ),
             ),
             const SizedBox(
-              width: 30,
+               width: 20,
             ),
             ElevatedButton(
                 onPressed: () => print('normal shade'),
                 style: ButtonStyle(
                     backgroundColor:
-                        MaterialStateProperty.all(const Color(0x00000001)),
+                        MaterialStateProperty.all(const Color(0x20000001)),
                     shadowColor:
-                        MaterialStateProperty.all(const Color(0x00000002))),
+                        MaterialStateProperty.all(const Color(0x20000002))),
                 child: const Text('normal shade')),
-            const SizedBox(
-              width: 30,
-            ),
           ],
         ),
         const SizedBox(
