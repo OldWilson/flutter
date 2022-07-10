@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dev/page/widget/Progress.dart';
+import 'package:demo/page/widget/Progress.dart';
 
 class ButtonSample extends StatefulWidget {
   @override

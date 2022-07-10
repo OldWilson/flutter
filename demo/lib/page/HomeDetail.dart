@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dev/page/widget/Progress.dart';
 
 class ButtonSample extends StatefulWidget {
   @override
@@ -228,7 +227,6 @@ class _ButtonSample extends State<ButtonSample> {
           tooltip: 'click IconButton',
           icon: const Icon(Icons.wifi),
         ),
-        const Progress(),
       ],
     );
   }
